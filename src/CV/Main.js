@@ -3,8 +3,8 @@ import React from 'react';
 
 
 // visuals 
-import Routing from './visuals/Routing'
-import NavBar from './visuals/NavBar'
+import Routing from './visuals/headers/Routing'
+import NavBar from './visuals/headers/NavBar'
 
 const Main = () => {
     return (

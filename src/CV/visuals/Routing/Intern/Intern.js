@@ -1,5 +1,5 @@
 import React from 'react';
-import BulletList from '../reusable/BulletList'
+import BulletList from '../../reusable/BulletList'
 
 import './Intern.css'
 

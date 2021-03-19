@@ -1,7 +1,9 @@
 import React from 'react';
-import BulletList from '../reusable/BulletList';
 
-import photo from '../../../images/hassan.jpg'
+
+import BulletList from '../../reusable/BulletList'
+
+import photo from '../../images/hassan.jpg'
 
 import './Contact.css'
 
