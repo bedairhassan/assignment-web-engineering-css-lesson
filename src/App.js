@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 
+// libraries
+import { Route, BrowserRouter as Router, Switch, Redirect, Link } from 'react-router-dom';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+// visuals
+import CV from './CV/Main'
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <CV />
+      </Router>
     </div>
   );
 }
